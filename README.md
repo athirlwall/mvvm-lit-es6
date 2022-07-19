@@ -1,10 +1,4 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
-
-## Open-wc Starter App
-
-[![Built with open-wc recommendations](https://img.shields.io/badge/built%20with-open--wc-blue.svg)](https://github.com/open-wc)
+## LIT / ES6 / MVVM Demo
 
 ## Quickstart
 
@@ -24,8 +18,15 @@ npm init @open-wc
 - `lint` runs the linter for your project
 - `format` fixes linting and formatting errors
 
-## Tooling configs
+## Description
 
-For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
+This demo illiustrates how a simple MVVM framework can be built using the LIT components along with RXJS, using only ES6. It is not meant to be a usable application, only a demonstration of:
 
-If you customize the configuration a lot, you can consider moving them to individual files.
+- The relationship between ViewModels and Views
+- The relation between ViewModels and services
+- Reactivity between services and Viewmodels
+- Reactivity between ViewModels and Views
+
+Since the Models are trivial in this example, and also have no type definitions due to the lack of Types in ES6, they are ommitted here. Normally the Models will be Typescript defined interfaces.
+
+The example also illustrates the use of an RXJS BehaviorSubject to achieve reactivity between the layers.
