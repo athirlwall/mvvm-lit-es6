@@ -4,10 +4,8 @@
 
 To get started:
 
-```bash
-npm init @open-wc
-# requires node 10 & npm 6 or higher
-```
+npm install
+npm run start
 
 ## Scripts
 
